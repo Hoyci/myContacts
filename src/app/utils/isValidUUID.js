@@ -4,3 +4,5 @@ function isValidUUID(string) {
 
   return regex.test(string);
 }
+
+module.exports = isValidUUID;

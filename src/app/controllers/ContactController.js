@@ -1,4 +1,5 @@
 const ContactsRepository = require('../repository/ContactsRepository');
+const isValidUUID = require('../utils/isValidUUID');
 
 class ContactController {
   async index(request, response) {
